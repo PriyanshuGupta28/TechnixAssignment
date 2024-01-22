@@ -1,0 +1,22 @@
+.developRoot {
+  background-repeat: no-repeat;
+  background-image: url("https://lh3.googleusercontent.com/SB7Qo-lVfo4G0JLEnPCLrQbWS-sMzhfeKEGs50-N5IPltYHxvhsmuRHwBPwtDKtIRnM8qjlqjmRPOs716SkYEVUv7TfgQWq5jSHrvzAvhNRxXllMDbs=w2400-rj");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 70vw; /* Set width to 100% */
+  height: 30rem; /* Set height to 100vh */
+  color: white;
+  border-radius: 2rem;
+  padding: 5rem;
+}
+
+.developH1 {
+  font-size: 88px;
+}
+.developdesc {
+  font-size: 22px;
+}

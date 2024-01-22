@@ -1,0 +1,111 @@
+.sliderComponet {
+  display: flex;
+}
+
+.SidebarRoot {
+  background-color: #2d2f31;
+  padding: 1rem;
+  height: 100vh;
+  color: white;
+  border-right: 0.7px solid #c5c7c4;
+}
+
+.SidebarWrapper,
+.sectionWraper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.SidebarWrapper {
+  gap: 1rem;
+}
+.sectionWraper:hover {
+  background-color: grey;
+  padding: 5px;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.hoveredDiv {
+  background-color: grey;
+  border-radius: 1rem;
+  padding: 5px;
+  width: 100%;
+}
+.icon {
+  font-size: 1.5rem;
+}
+
+.title {
+  font-size: 10px;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e5323;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+}
+.drawerRoot {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  background-color: #2d2f31;
+  height: 100vh;
+  color: white;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 1rem 2rem;
+  left: 6rem;
+}
+
+.listSection ul {
+  list-style-type: none;
+}
+.listSection ul li {
+  padding: 0%;
+}
+.listSection a {
+  color: white;
+}
+.linkWraper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  gap: 1rem;
+}
+
+.linkWraper .link {
+  text-align: left;
+  padding: 6px;
+}
+.linkWraper .link a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.linkWraper .link:hover {
+  cursor: pointer;
+  background-color: grey;
+  border-radius: 1rem;
+}
+
+.drawerTitle {
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.dropdownHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.dropdownHeader div {
+  font-size: 1.2rem;
+}
